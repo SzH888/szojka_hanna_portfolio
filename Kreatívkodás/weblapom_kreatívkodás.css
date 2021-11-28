@@ -21,7 +21,7 @@ body{
 	z-index: 1;
 }
 
-div.navigáció{ /*csak azt a div-et érti alatta, amelyiknek közvetlen meg van adva a class*/
+div.navigáció{
 	height: 130px;
 	width: 100%;
 	position: fixed;
