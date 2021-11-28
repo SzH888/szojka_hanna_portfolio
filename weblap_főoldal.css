@@ -1,0 +1,59 @@
+body{
+	background-color: #D8B07C;
+}
+
+.navigáció{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.navigáció a{
+	text-decoration: none;
+	color: #AF7A57;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	padding: 30px 10px;
+}
+
+.navigáció a:hover{
+	text-decoration: underline;
+}
+
+.sötétkép img{
+	height: 40vw;
+	width: 60%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#világos h1{
+	color: #DA8A81;
+	font-family: 'Comfortaa', cursive;
+	font-size: 5vw;
+	position: fixed;
+	bottom: 10px;
+	left: 4vw;
+	z-index: 2;
+}
+
+.világoskép img{
+	height: 32vw;
+	width: 40%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+#sötét h1{
+	color: #AF3E4D;
+	font-family: 'Comfortaa', cursive;
+	font-size: 5vw;
+	position: fixed;
+	bottom: 10px;
+	right: 4vw;
+	z-index: 2;
+}

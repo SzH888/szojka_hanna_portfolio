@@ -1,0 +1,161 @@
+body{
+	background-color: #D8B07C;
+	margin-bottom: 225px;
+}
+
+.navigáció{
+	background-color: #AF3E4D;
+}
+
+.navigáció_flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 75vw;
+	z-index: 1;
+}
+
+.benn{
+	height: 150px;
+	line-height: 130px;
+	z-index: 1;
+}
+
+div.navigáció{ /*csak azt a div-et érti alatta, amelyiknek közvetlen meg van adva a class*/
+	height: 130px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.navigáció a, .navigáció p{
+	text-decoration: none;
+	color: #DA8A81;
+	font-family: 'Comfortaa', cursive;
+	font-size: 3vw;
+	margin: 0;
+}
+
+.navigáció a:hover{
+	text-decoration: underline;
+}
+
+.navigáció p{
+	text-shadow: 5px 5px 2px #AA6C65;
+}
+
+.vilagoskep img{
+	height: 31vw;
+	width: 30%;
+	z-index: 2;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.főoldal a{
+	text-decoration: none;
+	color: #AF3E4D;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size: 4vw;
+	position: fixed;
+	top: 6vw;
+	right: 3vw;
+	text-align: center;
+	z-index: 3;
+}
+
+.főoldal a:hover{
+	text-decoration: underline;
+}
+
+div.bevezeto{
+	position: relative;
+	top: 150px;
+	left: 1vw;
+	width: 76vw;
+	display: flex;
+	background-color: #AF7A57;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.bevezeto p{
+	font-size: 2vw;
+	font-family: 'Comfortaa', cursive;
+	color: #E1C2A3;
+	margin: 10px;
+}
+
+div.csempeburkolo{
+	width: 78vw;
+	position: relative;
+	top: 170px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.csempe_fekvo img{
+	max-height: 250px;
+	display: block;
+	margin: auto;
+}
+
+.csempe_allo img{
+	max-height: 350px;
+	display: block;
+	margin: auto;
+}
+
+.csempe_fekvo{
+	width: 400px;
+	background-color: #AF7A57;
+	padding: 30px 10px 10px 10px;
+	border-radius: 20px;
+	margin: 20px 10px;
+	text-align: center;
+}
+
+.csempe_allo{
+	width: 275px;
+	background-color: #AF7A57;
+	padding: 30px 10px 10px 10px;
+	border-radius: 20px;
+	margin: 20px 10px;
+	text-align: center;
+}
+
+.csempe_allo p{
+	font-size: 2vw;
+	font-family: 'Comfortaa', cursive;
+	color: #E1C2A3;
+	margin-top: 10px;
+}
+
+.csempe_fekvo p{
+	font-size: 2vw;
+	font-family: 'Comfortaa', cursive;
+	color: #E1C2A3;
+	margin-top: 10px;
+}
+
+div.footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: #D8B07C;
+	border-top: 2px solid #AF3E4D;
+}
+
+.footer p{
+	font-size: 20px;
+	margin: 10px;
+	color: #AF3E4D;
+	font-family: 'Comfortaa', cursive;
+}
